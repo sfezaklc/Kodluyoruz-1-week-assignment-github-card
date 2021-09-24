@@ -1,0 +1,49 @@
+.search {
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+.github {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+}
+
+.user {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+}
+
+#image {
+    width: 50px;
+}
+
+.bio {
+    display: flex;
+}
+
+.stats {
+    text-align: right;
+}
+
+h3,
+h4 {
+    margin: 0;
+}
+
+ul#langugages {
+    list-style: none;
+    list-style-type: inside;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul#languages li {
+    display: inline;
+    padding: 30px;
+}
